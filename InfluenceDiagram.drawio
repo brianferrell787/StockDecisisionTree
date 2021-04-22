@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-22T13:25:42.912Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="AxwKQ58tS67_HSd50Smf" version="14.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-22T15:15:59.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="B5-HgGrsy4-DDtWKGdf2" version="14.6.0" type="github">
   <diagram id="NCtk11fWi7Got1G6-L-_" name="Page-1">
     <mxGraphModel dx="1038" dy="620" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -41,25 +41,26 @@
         <mxCell id="HVW_2JeXxIrShy90RYxK-12" value="Is the stock strategy criteria is met?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="517" y="431" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="HVW_2JeXxIrShy90RYxK-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVW_2JeXxIrShy90RYxK-13" target="HVW_2JeXxIrShy90RYxK-15">
+        <mxCell id="HVW_2JeXxIrShy90RYxK-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HVW_2JeXxIrShy90RYxK-13" target="HVW_2JeXxIrShy90RYxK-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVW_2JeXxIrShy90RYxK-13" value="Do I buy it?" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="713" y="441" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HVW_2JeXxIrShy90RYxK-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVW_2JeXxIrShy90RYxK-15" target="HVW_2JeXxIrShy90RYxK-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="773" y="310" />
-              <mxPoint x="773" y="244" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="HVW_2JeXxIrShy90RYxK-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HVW_2JeXxIrShy90RYxK-15" target="HVW_2JeXxIrShy90RYxK-17">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HVW_2JeXxIrShy90RYxK-15" value="Is the trade successful?" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="713" y="301" width="120" height="60" as="geometry" />
+          <mxGeometry x="713" y="174" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HVW_2JeXxIrShy90RYxK-17" value="Payoff" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="582" y="193" width="76" height="102" as="geometry" />
+          <mxGeometry x="517" y="153" width="76" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="HVW_2JeXxIrShy90RYxK-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVW_2JeXxIrShy90RYxK-19" target="HVW_2JeXxIrShy90RYxK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HVW_2JeXxIrShy90RYxK-19" value="How much do I buy?" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="713" y="304" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
